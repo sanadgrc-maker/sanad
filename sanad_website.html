@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sanad Cyber Governance</title>
+<style>
+  :root{
+    --bg:#0b1220;
+    --panel:#111b2e;
+    --text:#f5f7fb;
+    --muted:#aab6c8;
+    --accent:#2dd4bf;
+    --accent2:#60a5fa;
+    --line:#24324a;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:Inter,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+  .wrap{max-width:1100px;margin:auto;padding:0 24px}
+  header{padding:24px 0;border-bottom:1px solid var(--line)}
+  .brand{font-weight:800;font-size:22px;letter-spacing:.3px}
+  .brand span{color:var(--accent)}
+  .hero{padding:92px 0 72px}
+  .tag{display:inline-block;padding:7px 12px;border:1px solid #2f4365;border-radius:999px;color:#c9d7ea;font-size:14px;margin-bottom:24px}
+  h1{font-size:56px;line-height:1.05;max-width:850px;margin:0 0 24px}
+  .lead{font-size:20px;color:var(--muted);max-width:760px;margin-bottom:34px}
+  .cta{display:inline-block;background:var(--accent);color:#06231f;text-decoration:none;font-weight:700;padding:13px 20px;border-radius:10px}
+  section{padding:64px 0;border-top:1px solid var(--line)}
+  h2{font-size:34px;margin:0 0 18px}
+  .sub{color:var(--muted);max-width:760px}
+  .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:30px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:24px}
+  .card h3{margin-top:0;font-size:19px}
+  .card p{margin-bottom:0;color:var(--muted)}
+  .status{display:grid;grid-template-columns:1.2fr .8fr;gap:24px;align-items:start}
+  .box{background:linear-gradient(135deg,#111b2e,#0f1a2b);border:1px solid var(--line);border-radius:16px;padding:28px}
+  ul{padding-left:20px;color:var(--muted)}
+  footer{padding:34px 0;color:#8493a8;font-size:14px}
+  @media(max-width:800px){
+    h1{font-size:40px}
+    .grid,.status{grid-template-columns:1fr}
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="brand">Sanad <span>Cyber Governance</span></div>
+  </div>
+</header>
+
+<main>
+  <section class="hero" style="border-top:none">
+    <div class="wrap">
+      <div class="tag">Saudi industrial cybersecurity readiness</div>
+      <h1>Structured, AI-assisted readiness for complex cybersecurity evidence.</h1>
+      <p class="lead">
+        Sanad is building a cybersecurity governance and readiness platform for Saudi industrial suppliers,
+        helping teams organize evidence, identify readiness gaps, and prepare for expert review.
+      </p>
+      <a class="cta" href="#contact">Learn more</a>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>What Sanad is building</h2>
+      <p class="sub">
+        A practical workflow for suppliers that need a clearer, more defensible way to manage cybersecurity readiness
+        without replacing qualified human review.
+      </p>
+      <div class="grid">
+        <div class="card">
+          <h3>Evidence organization</h3>
+          <p>Centralizes readiness evidence and maps documents into a structured review workflow.</p>
+        </div>
+        <div class="card">
+          <h3>AI-assisted analysis</h3>
+          <p>Uses simulated AI assistance in the current prototype to surface gaps and support human decision-making.</p>
+        </div>
+        <div class="card">
+          <h3>Expert assurance</h3>
+          <p>Designed around human review, cautious conclusions, and preparation for subsequent authorized assessment.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap status">
+      <div>
+        <h2>Prototype V0</h2>
+        <p class="sub">
+          Sanad has built a 10-screen clickable desktop prototype demonstrating the journey from onboarding through
+          assessment-package export.
+        </p>
+        <ul>
+          <li>Synthetic data only</li>
+          <li>Simulated AI assistance requiring human review</li>
+          <li>No production backend or external integrations</li>
+          <li>No certification or Saudi Aramco approval claims</li>
+        </ul>
+      </div>
+      <div class="box">
+        <h3 style="margin-top:0">Current stage</h3>
+        <p style="color:var(--muted)">
+          Customer discovery is underway. Supplier outreach has started and the team is testing workflow pain points,
+          internal ownership, readiness needs, and pilot interest.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap">
+      <h2>About Sanad</h2>
+      <p class="sub">
+        Sanad Cyber Governance is an early-stage startup focused on strengthening cybersecurity readiness for
+        Saudi Arabia's industrial supply chain.
+      </p>
+      <p style="margin-top:26px"><strong>Founder:</strong> Hamza Selaman</p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">© 2026 Sanad Cyber Governance. Prototype-stage company.</div>
+</footer>
+</body>
+</html>
